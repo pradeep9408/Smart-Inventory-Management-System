@@ -1,0 +1,75 @@
+/* Header.css - Custom styles for the navigation bar */
+
+/* Navbar brand animation */
+.navbar-brand {
+  transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+/* Nav links hover effect */
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+  border-radius: 4px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* User dropdown styling */
+.user-dropdown .dropdown-toggle::after {
+  margin-left: 0.5rem;
+}
+
+.user-dropdown .dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 0.5rem 0;
+  min-width: 200px;
+}
+
+.user-dropdown .dropdown-item {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.user-dropdown .dropdown-item:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.user-dropdown .dropdown-item.text-danger:hover {
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+/* Badge styling */
+.badge.pill {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    margin: 0.2rem 0;
+  }
+  
+  .user-dropdown .dropdown-menu {
+    position: static !important;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    box-shadow: none;
+    border: none;
+  }
+} 

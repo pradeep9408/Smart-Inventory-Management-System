@@ -1,0 +1,93 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Table Styles */
+.table-responsive {
+  margin-bottom: 1rem;
+}
+
+/* Alert Styles */
+.alert {
+  margin-bottom: 1rem;
+}
+
+/* Button Styles */
+.btn {
+  margin-right: 0.5rem;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+/* Profile Page */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Item Detail Page */
+.item-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Dashboard Stats */
+.stats-card {
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stats-card .number {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.stats-card .label {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+} 
