@@ -1,4 +1,4 @@
-# Inventory Management System
+# Smart Inventory Management System
 
 A comprehensive inventory management system built with Spring Boot (backend) and React.js (frontend).
 
@@ -56,13 +56,6 @@ Before starting, make sure you have the following installed:
 - [Node.js](https://nodejs.org/) and npm
 - [MySQL Server](https://dev.mysql.com/downloads/installer/)
 
-### Clone the Repository
-To get the project on your local machine, run:
-
-```sh
-https://github.com/Jitendra-Jakkula/Smart_inventory_system.git
-
-```
 
 ## Backend Setup
 
@@ -152,10 +145,4 @@ PUT /api/alerts/{id}/resolve # Resolve an alert
 PUT /api/alerts/{id}/ignore  # Ignore an alert
 ```
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributors
-
-- Jitendra Jakkula - Initial work
