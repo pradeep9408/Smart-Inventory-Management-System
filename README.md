@@ -1,4 +1,4 @@
-# Smart Inventory Management System
+# Inventory Management System
 
 A comprehensive inventory management system built with Spring Boot (backend) and React.js (frontend).
 
